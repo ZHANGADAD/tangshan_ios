@@ -1,0 +1,36 @@
+//
+//  TangshanPrefixHeader.pch
+//  TangShan
+//
+//  Created by Tony on 12/17/15.
+//  Copyright © 2015 Tang Shan. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "SVProgressHUD.h"
+#import "HardaHttpClient.h"
+#import "GlobalMacros.h"
+#import "GlobalConstants.h"
+#import "GlobalUrlConstants.h"
+#import "GlobalUICommon.h"
+#import "HardaAddtional.h"
+#import <UMMobClick/MobClick.h>
+#import <UMSocialCore/UMSocialCore.h>
+#import "UMessage.h"
+#import <UShareUI/UShareUI.h>
+#import "UMSocialScreenShoter.h"
+#import "GloableInfo.h"
+
+#import <BaiduMapAPI_Map/BMKMapView.h>
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#endif

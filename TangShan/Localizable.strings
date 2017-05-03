@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TangShan
+
+  Created by chemi ios on 1/1/16.
+  Copyright © 2016 Tang Shan. All rights reserved.
+*/
+"loading"="正在加载";
+"NOINTERNET"="无网络连接";
